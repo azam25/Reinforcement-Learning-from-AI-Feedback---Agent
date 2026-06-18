@@ -31,7 +31,7 @@ class Settings(BaseSettings):
     # --- LLM endpoint ---
     openai_api_key: str = Field(..., description="API key for the LLM endpoint")
     openai_api_base: str = Field(
-        "https://llm-server.llmhub.t-systems.net/v2",
+        "https://llm-server.net/v2",
         description="Base URL for the OpenAI-compatible endpoint",
     )
     model_name: str = Field(
