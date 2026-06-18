@@ -35,7 +35,7 @@ class Settings(BaseSettings):
         description="Base URL for the OpenAI-compatible endpoint",
     )
     model_name: str = Field(
-        "Mixtral-8x7B-Instruct-v0.1-TDU",
+        "Mixtral-8x7B-Instruct",
         description="Name of the chat model to use",
     )
     embedding_model: str = Field(
